@@ -24,7 +24,7 @@
 
   - [X] **Briefing**
     - [X] **Identidade Visual**
-      - [X] Logo
+      - [X] [Logo](./brand/logo-pure.png)
       - [X] Cores
       - [ ] Manual da Marca  
     - [ ] **Material de Marketing**
