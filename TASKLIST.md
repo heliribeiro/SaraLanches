@@ -30,16 +30,15 @@
     - [X] **Identidade Visual**
       - [X] [Logo](./brand/logo-pure.png)
       - [X] Cores
-      - [ ] Manual da Marca  
-    - [ ] **Material de Marketing**
-      - [ ] Diretrizes
-      - [ ] Copy
-      - [ ] Anuncios impressos
-      - [ ] Anuncios Digitais
-      - [ ] Sinalização/Banners
-      - [ ] Peças promocionais e recursos utilizados em eventos
-      - [ ] Site
-      - [ ] Mídias Sociais
-      - [ ] Público Alvo
-    - [ ] **Orçamento**
-    - [ ] **Prazo Máximo**
+      - [X] ~Manual da Marca~  
+    - [X] ~**Material de Marketing**~
+      - [X] ~Diretrizes~
+      - [X] ~Copy~
+      - [X] ~Anuncios impressos~
+      - [X] ~Anuncios Digitais~
+      - [X] ~Sinalização/Banners~
+      - [X] ~Peças promocionais e recursos utilizados em eventos~
+      - [X] ~Site~
+      - [X] ~Mídias Sociais~
+    - [X] **Limite de Orçamento**
+    - [X] **Prazo Máximo**
