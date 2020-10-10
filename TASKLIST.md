@@ -13,6 +13,10 @@
     - [X] Avatar
     - [X] Diferencial do Projeto
 
+## Pesquisa de Mercado
+- [X] Pesquisa de Nicho
+- [X] Pesquisa dos Concorrentes
+
 ## Briefing
 
 ### Segunda Consultoria
