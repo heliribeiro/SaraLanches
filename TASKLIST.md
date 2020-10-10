@@ -42,3 +42,4 @@
       - [X] ~Mídias Sociais~
     - [X] **Limite de Orçamento**
     - [X] **Prazo Máximo**
+    - [ ] **Levantamento de Requisitos**
