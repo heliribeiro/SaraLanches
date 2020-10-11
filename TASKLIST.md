@@ -1,5 +1,7 @@
 # Tarefas
 
+*Obs.: Itens hashurados (~exemplo~) representam itens que o cliente não possuia ou que eram indiferentes ao projeto*
+
 ## Pré-Briefing
 
 ### Primeira Consultoria
@@ -14,6 +16,7 @@
     - [X] Diferencial do Projeto
 
 ## Pesquisa de Mercado
+- [X] Pesquisa Legislativa
 - [X] Pesquisa de Nicho
 - [X] Pesquisa dos Concorrentes
 
@@ -21,15 +24,10 @@
 
 ### Segunda Consultoria
 
-  - [X] **Preparação**
-    - [X] Estudo sobre Nicho
-    - [X] Estudo sobre o Cliente
-    - [X] Estudo sobre a Concorrência
-
   - [X] **Briefing**
-    - [X] **Identidade Visual**
-      - [X] [Logo](./brand/logo-pure.png)
-      - [X] Cores
+    - [X] ~**Identidade Visual**~
+      - [X] ~Logo~
+      - [X] ~Cores~
       - [X] ~Manual da Marca~  
     - [X] ~**Material de Marketing**~
       - [X] ~Diretrizes~
@@ -42,4 +40,36 @@
       - [X] ~Mídias Sociais~
     - [X] **Limite de Orçamento**
     - [X] **Prazo Máximo**
-    - [ ] **Levantamento de Requisitos**
+    - [X] **Levantamento de Requisitos**
+
+## Definição do Projeto
+
+- [X] **Definição de escopo**
+- [X] **Escolha da Estrutura de Gerenciamento**
+  - [X] Definição dos Papéis
+  - [X] Backlog
+  - [X] Preparar Lista de Sprints
+
+## Execução
+
+ - [ ] Modelagem
+   - [ ] UML
+   - [ ] Modelagem de Dados
+   - [ ] Design de Páginas
+
+ - [ ] Site institucional
+ 
+ - [ ]I dentidade Visual
+   - [X] Cores
+   - [X] Logo
+ 
+ - [ ] Cardápio
+ - [ ] Ala Administrativa
+   - [ ] Login
+   - [ ] Visão de Pratos
+   - [ ] Cadastro de Pratos
+   - [ ] Deletar Pratos
+   - [ ] Editar Pratos
+ 
+ - [ ] Página "Sobre"
+ - [ ] Serviço de Pedidos
