@@ -59,7 +59,7 @@
 
  - [ ] Site institucional
  
- - [X] I dentidade Visual
+ - [X] Identidade Visual
    - [X] Cores
    - [X] Logo
  
