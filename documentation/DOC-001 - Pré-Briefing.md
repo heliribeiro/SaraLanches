@@ -1,5 +1,7 @@
 # Pré-Briefing
 
+*Um relatório mais detalhado sobre o projeto pode ser encontrado no documento de [Relatório](DOC-000%20-%20Relatório.md) (DOC-000).*
+
 ## Sobre o cliente
 
 ### Para quem é o projeto?

@@ -42,3 +42,6 @@ Os papéis ficaram definidos da seguinte maneira:
 
 ### Definição de Sprints
 Foram definidas a sequência de tarefas que deverão ser feitas. A lista de sprints pode ser lida no documentos de [Sprints](DOC-009%20-%20Sprints.md) (DOC-009).
+
+### UML
+Para um desenvolvimento mais consiso e melhor orientado foram feitos diagramas em UML que facilitariam a visualização do funcionamento e das funcionalidades do sistema. Esses diagramas são apresentados no documento de [UML](DOC-010%20-%20UML.md) (DOC-010).

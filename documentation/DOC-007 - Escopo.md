@@ -1,3 +1,7 @@
+# Escopo do Projeto
+
+*Um relatório mais detalhado sobre o projeto pode ser encontrado no documento de [Relatório](DOC-000%20-%20Relatório.md) (DOC-000).*
+
 | ID  |Prioridade|  Classificação  |     Título       |Descrição|
 |:---:|:--------:|:---------------:|:----------------:|:-------:|
 |1.0.0|    0     |     Sistema     |Site Institucional|Site institucional que apresente as informações da empresa e seus produtos/serviços|

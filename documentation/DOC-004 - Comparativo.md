@@ -1,5 +1,7 @@
 # Pesquisa de Popularidade no Mercado
 
+*Um relatório mais detalhado sobre o projeto pode ser encontrado no documento de [Relatório](DOC-000%20-%20Relatório.md) (DOC-000).*
+
 ## Instagram
 
 |   Empresa    |         Usuário         |Posts|Seguidores|Seguindo|Engajamento|Tag mais usada|
