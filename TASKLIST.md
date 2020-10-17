@@ -53,7 +53,7 @@
 ## Execução
 
  - [ ] Modelagem
-   - [ ] UML
+   - [X] UML
    - [ ] Modelagem de Dados
    - [ ] Design de Páginas
 
