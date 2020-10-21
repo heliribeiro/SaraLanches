@@ -352,6 +352,10 @@ p {
     margin-right: 5px;
 }
 
+.devs .btn-devs:hover {
+    border: 2px double #000;
+}
+
 .desenvolvedores .devs {
     /*margin-left: 50px;*/
     display: inline-block;
