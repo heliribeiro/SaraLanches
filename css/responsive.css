@@ -247,6 +247,12 @@ chamado de breakpoint
         padding-top: 10px;  
         margin-top: 0px;
     }
+    .about p {
+        width: 320px;
+        margin: 0;
+       
+     
+    }
 
     .cardapio h1 {
         padding-top: 30px;

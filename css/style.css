@@ -235,8 +235,8 @@ p {
 }
 
 .about p {
-    font-family: 'Lato', sans-serif;
-    margin-top: 50px;
+    width: 700px;
+    margin: 50px auto 100px auto;
 }
 
 .about a {
@@ -406,10 +406,6 @@ p {
     font-weight: bold;
     
 }
-
-
-
-
 
 
 /* FOOTER */
