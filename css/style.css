@@ -5,6 +5,9 @@
 
 
 /* ESTILOS GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 img {
     display: block;
@@ -12,9 +15,13 @@ img {
 }
 
 p {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family:'Ubuntu', sans-serif;
     font-size: 14px;
     line-height: 25px;
+}
+
+.centralizar{
+    text-align: center;
 }
 
 .header {
@@ -101,7 +108,7 @@ p {
     width: 251px;
     height: 45px;
     border-radius: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Ubuntu', sans-serif;
     font-weight: bold;
     padding-top: 7px;
     display: block;
@@ -113,7 +120,7 @@ p {
     width: 190px;
     color: #fff;
     border-radius: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Ubuntu', sans-serif;
     font-weight: bold;
     padding-top: 15px;
     line-height: 20px;
@@ -134,11 +141,9 @@ p {
 /* Os mais pedidos */
 
 .mais-pedido {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-style: italic;
     line-height: 25px;
-    margin: 20px auto 40px auto;
 }
 
 .mais-pedido h1 {
@@ -159,6 +164,7 @@ p {
 }
 
 .mais-pedido .produtos {
+    font-family: 'Lato', sans-serif;
     display: inline-block;
     width: 300px;
     height: 109px;
@@ -167,6 +173,7 @@ p {
 }
 
 .mais-pedido h4 {
+    font-family:'Ubuntu', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #803B3B;
@@ -174,12 +181,14 @@ p {
 }
 
 .mais-pedido p {
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
     margin-left: 110px;
 }
 
 .mais-pedido .btn-mp {
+    font-family: 'Lato', sans-serif;
     background: #CC5E5E;
     color: #fff;
     border: 3px solid #CC5E5E;
@@ -226,32 +235,40 @@ p {
 }
 
 .about p {
+    font-family: 'Lato', sans-serif;
     margin-top: 50px;
 }
 
 .about a {
+    font-family: 'Lato', sans-serif;
     color: #fff;
     display: inline-block;
     margin-top: 35px;
-    border-bottom: 3px dashed #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.about a:hover {
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
 }
 
 .cardapio {
-    padding-top: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Ubuntu', sans-serif;
     font-size: 14px;
     font-style: italic;
     line-height: 25px;
-    margin: 20px auto 40px auto;
 }
 
 .cardapio h1 {
+    font-family:'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #CC5E5E;
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    padding-top: 80px;
 }
 
 .cardapio h1:after {
@@ -272,6 +289,7 @@ p {
 }
 
 .cardapio .produtos {
+    font-family: 'Lato', sans-serif;
     display: inline-block;
     width: 300px;
     height: 109px;
@@ -280,6 +298,7 @@ p {
 }
 
 .cardapio h4 {
+    font-family:'Ubuntu', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #803B3B;
@@ -293,6 +312,7 @@ p {
 }
 
 .cardapio .btn-mp {
+    font-family: 'Lato', sans-serif;
     background: #CC5E5E;
     color: #fff;
     border: 3px solid #CC5E5E;
@@ -319,14 +339,25 @@ p {
 }
 
 .desenvolvedores {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-style: italic;
     line-height: 25px;
     margin: 20px auto 40px auto;
 }
 
+.desenvolvedores .devs {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    width: 247px;
+    height: 90px;
+    margin: 20px 21px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
 .desenvolvedores h1 {
+    font-family:'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #CC5E5E;
@@ -334,6 +365,14 @@ p {
     letter-spacing: 0.1em;
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+.desenvolvedores h4 {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #803B3B;
+    margin-left: 75px;
 }
 
 .desenvolvedores img {
@@ -344,47 +383,39 @@ p {
     border-radius: 20px;
 }
 
+.desenvolvedores p {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 78px;
+    
+}
+
 .devs .btn-devs {
     background: #CC5E5E;
     color: #fff;
     border: 3px solid #CC5E5E;
-    border-radius: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 70px;
     height: 30px;
-    float: right;
-    margin-right: 5px;
 }
 
 .devs .btn-devs:hover {
-    border: 2px double #000;
-}
-
-.desenvolvedores .devs {
-    display: inline-block;
-    width: 240px;
-    height: 90px;
-    margin: 20px 4%;
-    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-}
-
-.desenvolvedores h4 {
-    font-size: 16px;
+    border: 2px solid #000;
     font-weight: bold;
-    color: #803B3B;
-    margin-left: 75px;
+    
 }
 
-.desenvolvedores p {
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-left: 78px;
-}
+
+
+
 
 
 /* FOOTER */
 
 .footer {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     background: #CC5E5E;
     padding: 10px;

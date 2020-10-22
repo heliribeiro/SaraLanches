@@ -120,6 +120,14 @@ chamado de breakpoint
 */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    .mais-pedido h1 {
+        padding: 10px 0;
+    }
+
+    .mais-pedido .produtos {
+        margin-top: 20px;
+    }
+    
     .container {
         width: 768px;
     }
@@ -199,6 +207,10 @@ chamado de breakpoint
     .header_menu {
         text-align: center;
     }
+    .header_menu ul{
+        padding: 0;
+        margin: 0;
+    }
     .header_menu ul li {
         margin: 5px;
     }
@@ -216,15 +228,28 @@ chamado de breakpoint
     }
     /* introducao */
     .introducao {
+        height: 512px;  
+        padding-top: 10px;  
         margin-top: 0px;
     }
     .img-home img {
         height: 200px;
+        width: 200px;
         font-weight: 200px;
     }
     /* mais pedidos */
     .mais-pedido .produtos {
         margin: 10px auto;
+    }
+
+    .about {
+        height: 512px;  
+        padding-top: 10px;  
+        margin-top: 0px;
+    }
+
+    .cardapio h1 {
+        padding-top: 30px;
     }
     /* grids */
     .container {
