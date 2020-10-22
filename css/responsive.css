@@ -10,6 +10,7 @@
     width: 960px;
     margin: 0 auto;
     padding: 0px;
+    position: relative;
 }
 
 .container:after,
@@ -176,9 +177,56 @@ chamado de breakpoint
 }
 
 
-/* segundo breakpoint */
+/* TELA PARA SMARTHPHONES */
+
+
+/* segundo breakpoint 
+	ESTILO SMARTPHONE
+*/
 
 @media only screen and (max-width: 787px) {
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img {
+        margin: 0 auto 5px auto;
+        position: relative;
+        height: 90px;
+        width: 90px;
+        left: auto;
+    }
+    .header_menu {
+        text-align: center;
+    }
+    .header_menu ul li {
+        margin: 5px;
+    }
+    .header_menu ul li a.menu-ativo {
+        border-color: #fff;
+    }
+    .header_menu ul li a {
+        width: 136px;
+        display: block;
+        float: left;
+        border: 4px solid #000;
+    }
+    .header_menu ul li a:hover {
+        border-color: #fff;
+    }
+    /* introducao */
+    .introducao {
+        margin-top: 0px;
+    }
+    .img-home img {
+        height: 200px;
+        font-weight: 200px;
+    }
+    /* mais pedidos */
+    .mais-pedido .produtos {
+        margin: 10px auto;
+    }
+    /* grids */
     .container {
         width: 300px;
     }
@@ -200,7 +248,7 @@ chamado de breakpoint
     .grid-16,
     .grid-1-3 {
         width: 300px;
-        margin: 0;
+        margin: 0 0 20px 0;
         float: none;
     }
 }

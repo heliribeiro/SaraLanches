@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <link rel="shortcut icon" href="favicon-96x96.png">
 </head>
 
 <body>
@@ -27,18 +31,21 @@
             </nav>
         </div>
     </header>
-    <!--  -->
+
+    <!-- HOME -->
     <section class="introducao">
-        <div class="container introducao-interna">
-            <img src="img/logo-transparente.png" alt="Sara Lanches" class="logo">
+        <div class="container">
+            <div class="grid-16 img-home">
+                <img src="img/logo-transparente.png" alt="Sara Lanches">
+            </div>
             <p>
                 Olá! Com vontade de saborear nossos deliciosos pratos?
             </p>
-
             <a class="#cardapio">Ver Cardápios</a>
             <a href="#sobre">Sobre Nós</a>
         </div>
     </section>
+
     <!-- QUEBRA -->
     <div class="quebra"> </div>
     <!-- OS MAIS PEDIDOS -->
@@ -50,7 +57,6 @@
             <p>R$ 25,00</p>
             <p>Pizza quatro queijos</p>
             <button type="submit" class="btn-mp">Pedir Esse</button>
-
         </div>
 
         <div class="produtos ">
@@ -67,12 +73,15 @@
             <p>Pizza quatro queijos</p>
             <button type="submit" class="btn-mp">Pedir Esse</button>
         </div>
-
+        <!-- SOBRE -->
     </section>
     <section id="sobre" class="quebra"> </section>
     <section class="about">
-        <div class="container introducao-interna">
-            <img src="img/logo-pure.png" alt="Sara Lanches" class="logo-about">
+        <div class="container ">
+            <div class="grid-16 img-home">
+                <img src="img/logo-pure.png" alt="Sara Lanches">
+            </div>
+
             <p>
                 Sara Lanches é um restaurante fictício criado em 2020 para um projeto de Engenharia de Software do curso de Engenharia de Computação da UFC. Se gostou do que viu sinta-se a vontade para entrar em contato com os desenvolvedores.
             </p>
@@ -269,7 +278,7 @@
         </div>
     </section>
     <!-- desenvolvedores -->
-    <section id="desenvolvedores" class=" desenvolvedores">
+    <section id="desenvolvedores" class=" container desenvolvedores">
         <h1>Desenvolvedores</h1>
         <div class="devs">
             <img src="img/dev-fabricio.jpg" alt="produto-1">
