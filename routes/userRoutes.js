@@ -36,5 +36,15 @@ router.post('/authenticate',async(req,res)=>{
     }
 })
 
+router.get('/', async(req,res)=>{
+    try {
+        const users = await User.find()
+        res.send({users})
+
+    } catch (error) {
+        res.status(400).send({error:"Não foi possível buscar os usuários cadastrados"})
+    }
+})
+
 
 export default router
