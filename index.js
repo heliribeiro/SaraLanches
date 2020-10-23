@@ -28,6 +28,6 @@ app.use(express.json())
 
 app.use('/users', userRoutes)
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`O servidor foi iniciado na porta ${PORT}!`);
 });
