@@ -51,7 +51,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:5000/" || "https://backend-saralanches.herokuapp.com/"
+        url: process.env.NODE_ENV? "http://localhost:5000/": "https://backend-saralanches.herokuapp.com/"
       }
     ]
   },
