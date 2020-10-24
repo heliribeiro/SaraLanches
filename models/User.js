@@ -1,6 +1,31 @@
 import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
 
+/**
+ * @swagger
+ *  components:
+ *    schemas:
+ *      User:
+ *        type: object
+ *        required:
+ *          - name
+ *          - username
+ *          - password
+ *        properties:
+ *          name:
+ *            type: string
+ *          username:
+ *            type: string
+ *            description: username for the user, needs to be unique.
+ *          password:
+ *            type: string
+ *          
+ *        example:
+ *           name: Alexander
+ *           username: alex
+ *           password: 123456
+ */
+
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -33,3 +58,5 @@ UserSchema.pre('save', async function(next){
 const User = mongoose.model('users', UserSchema)
 
 export default User
+
+

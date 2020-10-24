@@ -3,6 +3,25 @@ import Food from '../models/Food.js'
 
 const router = express.Router()
 
+/**
+ * @swagger
+ * tags:
+ *   name: Foods
+ *   description: Food management
+ */
+
+
+/**
+ * @swagger
+ * path:
+ *  /foods:
+ *    get:
+ *      summary: Get a list of all foods
+ *      tags: [Foods]
+ *      responses:
+ *        "200":
+ *          description: An foods array of object
+ */
 router.get('/',async(req,res)=>{
     try {
         const foods = await Food.find() 
@@ -25,6 +44,20 @@ router.get('/:id', async(req,res)=>{
     }
 })
 
+/**
+ * @swagger
+ * path:
+ *  /foods:
+ *    post:
+ *      summary: Create a new food
+ *      tags: [Foods]
+ *      requestBody:
+ *        required: true
+ *        content:
+ *          application/json:
+ *            schema:
+ *              $ref: '#/components/schemas/Food'
+ */
 router.post('/',async(req,res)=>{
     const {name,link_picture,price,description} = req.body
     try {
@@ -41,6 +74,30 @@ router.post('/',async(req,res)=>{
 
 })
 
+/**
+ * @swagger
+ * path:
+ *  /foods/{id}:
+ *    put:
+ *      summary: update a food
+ *      tags: [Foods]
+ *      parameters:
+ *          - in: path
+ *            name: id
+ *            schema:
+ *              type: string
+ *            required: true
+ *            descritipon: Id of the food
+ *      requestBody:
+ *        required: true
+ *        content:
+ *          application/json:
+ *            schema:
+ *              $ref: '#/components/schemas/Food'
+ *      responses:
+ *          "200":
+ *              descripion: An array of foods
+ */
 router.put('/:id', async(req,res)=>{
     const {name, link_picture,price,description} = req.body
     const {id} = req.params
@@ -57,7 +114,24 @@ router.put('/:id', async(req,res)=>{
     }
 })
 
-
+/**
+ * @swagger
+ * path:
+ *  /foods/{id}:
+ *    delete:
+ *      summary: delete the food
+ *      tags: [Foods]
+ *      parameters:
+ *          - in: path
+ *            name: id
+ *            schema:
+ *              type: string
+ *            required: true
+ *            descritipon: Id of the food
+ *      responses:
+ *          "200":
+ *              descripion: deletado com sucesso
+ */
 router.delete('/:id', async(req,res)=>{
     const {id} = req.params
     try {
